@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Api regression dz16" parallel="methods" thread-count="5">
+    <test name="First test">
+        <classes>
+            <class name="tests.CreateBookingTest"/>
+            <class name="tests.GetAllBookingTest"/>
+            <class name="tests.PartialUpdateTest"/>
+            <class name="tests.BookingUpdateTest"/>
+            <class name="tests.DeleteTheBooking"/>
+        </classes>
+
+    </test>
+</suite>
